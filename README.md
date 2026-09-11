@@ -52,3 +52,12 @@ Configura las siguientes variables de entorno para conectar el microservicio:
    ```bash
    git clone <URL_DEL_REPOSITORIO>
    cd products-api
+
+
+### Kafka UI Installation Checklist
+
+Follow these steps to install and configure Kafka UI for monitoring Kafka topics, messages, headers, consumer groups, and offsets:
+
+1. **Pull the Kafka UI Docker image**:
+   ```bash
+   docker pull provectuslabs/kafka-ui:latest
